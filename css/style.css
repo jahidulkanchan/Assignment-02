@@ -70,7 +70,8 @@ p {
 
 /* ========= Header   Start ======= */
 header {
-  background-image: radial-gradient(#010101e4, #000000ec);
+  background-color: #000000;
+  background-image: linear-gradient( #000000b1 10%,#47474781,#00000000);
   color: #ffffff;
   min-height: 500px;
   padding: 30px 0px 0px 0px;
