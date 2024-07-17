@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+DK+Uloopet:wght@100..400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+DK+Uloopet:wght@100..400&display=swap");
 
 /* =========Typhography Start ======= */
-:root{
+:root {
   --primary-color: #ffffff;
   --secondery-color: #b5b5b5;
-  --orange-color: #E6533C;
+  --orange-color: #e6533c;
 }
 * {
   margin: 0;
@@ -14,7 +14,7 @@
 body {
   overflow-x: hidden;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;;
+  font-family: "Inter", sans-serif;
 }
 a {
   text-decoration: none;
@@ -26,12 +26,12 @@ li {
 img {
   width: 100%;
 }
-.container{
+.container {
   padding: 0px 20px;
   max-width: 1150px;
   margin: 0 auto;
 }
-.primary-btn{
+.primary-btn {
   padding: 15px 25px;
   border: 1px solid #00000000;
   border-radius: 40px;
@@ -48,11 +48,11 @@ p {
 .text-center {
   text-align: center;
 }
-.gap-2{
+.gap-2 {
   gap: 20px;
 }
-.gap-4{
-  gap: 2.3rem;
+.gap-4 {
+  gap: 1.3rem;
 }
 .flex {
   display: flex;
@@ -69,64 +69,65 @@ p {
 /* =========Typhography End ======= */
 
 /* ========= Header   Start ======= */
-header{
-  background-image: radial-gradient(#010101e4,#000000ec);
+header {
+  background-image: radial-gradient(#010101e4, #000000ec);
   color: #ffffff;
   min-height: 500px;
-  padding: 30px 0px 0px 30px;
+  padding: 30px 0px 0px 0px;
 }
-header .logo{
+header .logo {
   font-weight: 700;
   font-size: 2.5rem;
   color: var(--orange-color);
 }
-header ul{
+header ul {
   border: 1px solid #cdcdcd57;
   border-radius: 50px;
   padding: 8px 10px;
 }
-header li a{
+header li a {
   border-radius: 20px;
   padding: 4px 15px 6px 15px;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
-header li a:hover{
+header li a:hover {
   background-color: var(--orange-color);
 }
-.navbar-icon{
+.navbar-icon {
   display: none;
   margin-right: 30px;
   font-size: 33px;
 }
-.active{
+.active {
   background-color: var(--orange-color);
 }
-.banner-part h1{
+.banner-part h1 {
   font-weight: bold;
   font-size: 75px;
 }
-.banner-part h1 span{
+.banner-part h1 span {
   font-weight: 200;
   font-family: "Playwrite DK Uloopet", cursive;
 }
-.banner-part .special{
+.banner-part .special {
   background-color: transparent;
   border: 1px solid gainsboro;
 }
-.banner-part .right-image{
+.banner-part .right-image {
   position: relative;
   margin-right: 40px;
 }
-.banner-part .right-image p{
+.banner-part .right-image p {
   font-weight: 200;
 }
-.right-image .circle{
+.right-image .circle {
   width: 50px;
   height: 50px;
   background-color: var(--orange-color);
   border-radius: 30px;
 }
-.banner-part .right-image .after,.banner-part .right-image .before{
+.banner-part .right-image .after,
+.banner-part .right-image .before {
   position: absolute;
   width: 180px;
   height: 80px;
@@ -134,9 +135,9 @@ header li a:hover{
   border-radius: 10px;
   backdrop-filter: blur(8px);
   border: 1px solid #dcdcdc45;
-  background-image: linear-gradient(#72727200,#6969692c);
+  background-image: linear-gradient(#72727200, #6969692c);
 }
-.banner-part .right-image .after{
+.banner-part .right-image .after {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -144,7 +145,7 @@ header li a:hover{
   right: -50px;
   top: 110px;
 }
-.banner-part .right-image .before{
+.banner-part .right-image .before {
   position: absolute;
   display: flex;
   justify-content: center;
@@ -169,27 +170,40 @@ header li a:hover{
 /* =========   Start ======= */
 /* =========   End ======= */
 
-
-
 /* ========= small device  Start ======= */
 @media screen and (max-width: 576px) {
-  .banner-part{
-    background: red;
+  .container {
+    padding: 0px 15px;
+  }
+  .banner-part h1 {
+    font-weight: bold;
+    font-size: 45px;
+  }
+  .banner-part .right-image .after,
+  .banner-part .right-image .before {
+    width: 165px;
+    height: 80px;
+  }
+  .banner-part .right-image .after {
+    right: -40px;
+    top: 60px;
+  }
+  .banner-part .right-image .before {
+    left: 50px;
+    bottom: 250px;
   }
 }
 /* =========  small device End ======= */
 /* =========   Start ======= */
 @media screen and (max-width: 992px) {
-  nav .menu ul{
+  nav .menu ul {
     display: none;
   }
-  .navbar-icon{
+  .navbar-icon {
     display: block;
   }
-  .flex-md-column{
+  .flex-md-column {
     flex-direction: column;
   }
 }
 /* =========   End ======= */
-
-
