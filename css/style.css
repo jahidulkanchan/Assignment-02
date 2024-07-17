@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+DK+Uloopet:wght@100..400&display=swap');
+
+/* =========Typhography Start ======= */
+:root{
+  --primary-color: #ffffff;
+  --secondery-color: #b5b5b5;
+  --orange-color: #E6533C;
+}
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+}
+.container{
+  padding: 0px 20px;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.primary-btn{
+  padding: 15px 25px;
+  border: 1px solid #00000000;
+  border-radius: 40px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: var(--orange-color);
+  color: var(--primary-color);
+}
+p {
+  font-weight: 400;
+  line-height: 26px;
+  opacity: 0.7;
+}
+.text-center {
+  text-align: center;
+}
+.gap-4{
+  gap: 2.3rem;
+}
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.item-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+/* =========Typhography End ======= */
+
+/* ========= Header   Start ======= */
+header{
+  background-image: radial-gradient(#010101e4,#000000ec);
+  color: #ffffff;
+  min-height: 500px;
+  padding: 30px 0px 0px 30px;
+}
+header .logo{
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: var(--orange-color);
+}
+header ul{
+  border: 1px solid #cdcdcd57;
+  border-radius: 50px;
+  padding: 8px 10px;
+}
+header li a{
+  border-radius: 20px;
+  padding: 4px 15px 6px 15px;
+  transition: all .2s ease;
+}
+header li a:hover{
+  background-color: var(--orange-color);
+}
+.navbar-icon{
+  display: none;
+  margin-right: 30px;
+  font-size: 33px;
+}
+.active{
+  background-color: var(--orange-color);
+}
+.banner-part h1{
+  font-weight: bold;
+  font-size: 75px;
+}
+.banner-part h1 span{
+  font-weight: 200;
+  font-family: "Playwrite DK Uloopet", cursive;
+}
+.banner-part .special{
+  background-color: transparent;
+  border: 1px solid gainsboro;
+}
+/* =========   End ======= */
+
+/* =========   Start ======= */
+/* =========   End ======= */
+
+/* =========   Start ======= */
+/* =========   End ======= */
+
+/* =========   Start ======= */
+/* =========   End ======= */
+
+/* =========   Start ======= */
+/* =========   End ======= */
+
+/* =========   Start ======= */
+/* =========   End ======= */
+
+
+
+/* ========= small device  Start ======= */
+@media screen and (max-width: 576px) {
+  .banner-part{
+    background: red;
+  }
+}
+/* =========  small device End ======= */
+/* =========   Start ======= */
+@media screen and (max-width: 992px) {
+  nav .menu ul{
+    display: none;
+  }
+  .navbar-icon{
+    display: block;
+  }
+  .flex-md-column{
+    flex-direction: column;
+  }
+}
+/* =========   End ======= */
+
+
