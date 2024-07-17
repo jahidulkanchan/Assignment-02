@@ -48,6 +48,9 @@ p {
 .text-center {
   text-align: center;
 }
+.gap-2{
+  gap: 20px;
+}
 .gap-4{
   gap: 2.3rem;
 }
@@ -109,6 +112,45 @@ header li a:hover{
 .banner-part .special{
   background-color: transparent;
   border: 1px solid gainsboro;
+}
+.banner-part .right-image{
+  position: relative;
+  margin-right: 40px;
+}
+.banner-part .right-image p{
+  font-weight: 200;
+}
+.right-image .circle{
+  width: 50px;
+  height: 50px;
+  background-color: var(--orange-color);
+  border-radius: 30px;
+}
+.banner-part .right-image .after,.banner-part .right-image .before{
+  position: absolute;
+  width: 180px;
+  height: 80px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  backdrop-filter: blur(8px);
+  border: 1px solid #dcdcdc45;
+  background-image: linear-gradient(#72727200,#6969692c);
+}
+.banner-part .right-image .after{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  right: -50px;
+  top: 110px;
+}
+.banner-part .right-image .before{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: -100px;
+  bottom: 80px;
 }
 /* =========   End ======= */
 
