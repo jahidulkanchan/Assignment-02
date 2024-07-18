@@ -104,8 +104,8 @@ header li a:hover {
 }
 .navbar-icon {
   display: none;
-  margin-right: 30px;
-  font-size: 33px;
+  margin-right: 10px;
+  font-size: 30px;
 }
 .active {
   background-color: var(--orange-color);
@@ -118,6 +118,9 @@ header li a:hover {
   font-weight: 200;
   font-family: "Playwrite DK Uloopet", cursive;
 }
+.right-image .circle i{
+  display: none;
+}
 .banner-part .special {
   background-color: transparent;
   border: 1px solid gainsboro;
@@ -129,7 +132,7 @@ header li a:hover {
 .banner-part .right-image p {
   font-weight: 200;
 }
-.right-image .circle {
+.banner-part .right-image .circle {
   width: 50px;
   height: 50px;
   background-color: var(--orange-color);
@@ -281,6 +284,12 @@ header li a:hover {
 
 /* ========= small device  Start ======= */
 @media screen and (max-width: 576px) {
+  header .logo {
+    font-size: 1.8rem;
+  }
+  header .icon{
+    font-size: 25px;
+  }
   .container {
     padding: 0px 15px;
   }
@@ -288,14 +297,17 @@ header li a:hover {
     font-weight: bold;
     font-size: 45px;
   }
+  .right-image .circle i{
+    display: block;
+  }
   .banner-part .right-image .after,
   .banner-part .right-image .before {
-    width: 160px;
+    width: 170px;
     height: 80px;
-    padding: 5px 5px;
+    padding: 5px 10px;
   }
   .banner-part .right-image .after {
-    right: -40px;
+    right: -45px;
     top: 60px;
   }
   .banner-part .right-image .before {
