@@ -285,7 +285,7 @@ header li a:hover {
 /* ========= small device  Start ======= */
 @media screen and (max-width: 576px) {
   header .logo {
-    font-size: 1.8rem;
+    font-size: 2.1rem;
   }
   header .icon{
     font-size: 25px;
