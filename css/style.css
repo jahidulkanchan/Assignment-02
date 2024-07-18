@@ -192,6 +192,56 @@ header li a:hover {
 }
 /* ========= Habit section  End ======= */
 
+/* ========= Excercise section  Start ======= */
+.exercise-section{
+  padding: 50px 0p;
+}
+.exercise-section img{
+  height: 200px;
+  object-fit: cover;
+}
+.exercise-section .gallery{
+  display: grid;
+  gap: 5px;
+  grid-template-columns: .5fr 1fr .5fr;
+}
+.exercise-section .gallery .image-card,.exercise-section .gallery-2 .image-card{
+  position: relative;
+}
+.exercise-section .image-card .token{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ 
+}
+.exercise-section .image-card .token-1{
+  background-color: rgba(255, 0, 0, 0.493);
+}
+.exercise-section .image-card .token-2{
+  background-color: rgba(0, 255, 17, 0.493);
+}
+.exercise-section .image-card .token-3{
+  background-color: rgba(0, 70, 222, 0.493);
+}
+.exercise-section .image-card .token-4{
+  background-color: rgba(255, 230, 0, 0.493);
+}
+.exercise-section .image-card .token-5{
+  background-color: rgba(255, 0, 119, 0.493);
+}
+.exercise-section .image-card .token-6{
+  background-color: rgba(0, 189, 222, 0.493);
+}
+.exercise-section .gallery-2{
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1.3fr .7fr .9fr;
+}
+
+/* ========= Excercise section  End ======= */
+
 /* ========= Team section  Start ======= */
 .team-section {
   padding: 50px 0px;
@@ -280,8 +330,7 @@ header li a:hover {
 }
 /* =========   End ======= */
 
-/* =========   Start ======= */
-/* =========   End ======= */
+
 
 /* =========   Start ======= */
 /* =========   End ======= */
@@ -357,6 +406,9 @@ header li a:hover {
     grid-template-columns: 1fr;
   }
   .mentors-details {
+    grid-template-columns: 1fr;
+  }
+  .exercise-section .gallery-2, .exercise-section .gallery{
     grid-template-columns: 1fr;
   }
 }
