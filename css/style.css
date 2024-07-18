@@ -71,7 +71,7 @@ p {
 /* ========= Header   Start ======= */
 header {
   background-color: #000000;
-  background-image: linear-gradient( #000000b1 10%,#47474781,#00000000);
+  background-image: linear-gradient(#000000b1 10%, #47474781, #00000000);
   color: #ffffff;
   min-height: 500px;
   padding: 30px 0px 0px 0px;
@@ -182,8 +182,9 @@ header li a:hover {
   }
   .banner-part .right-image .after,
   .banner-part .right-image .before {
-    width: 165px;
+    width: 160px;
     height: 80px;
+    padding: 5px 5px;
   }
   .banner-part .right-image .after {
     right: -40px;
@@ -191,7 +192,10 @@ header li a:hover {
   }
   .banner-part .right-image .before {
     left: 50px;
-    bottom: 250px;
+    top: 200px;
+  }
+  .primary-btn {
+    padding: 15px;
   }
 }
 /* =========  small device End ======= */
