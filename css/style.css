@@ -16,6 +16,7 @@ body {
   overflow-x: hidden;
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
+  background-color: #000000;
 }
 a {
   text-decoration: none;
@@ -254,6 +255,29 @@ header li a:hover {
 /* ========= Team section  End ======= */
 
 /* =========   Start ======= */
+.running-section {
+  padding: 30px 0px;
+  min-height: 300px;
+  background-color: var(--bgBack-color);
+}
+.running-section .content{
+  background-color: #58585879;
+  border-radius: 18px;
+  padding: 30px 40px;
+}
+.running-section .content .left-content{
+  width: 50%;
+}
+.running-section .right-image img{
+  max-width: 360px;
+}
+.running-section .md-image{
+  display: none;
+}
+.running-section .md-image img{
+  border-radius: 18px;
+  max-width: 100%;
+}
 /* =========   End ======= */
 
 /* =========   Start ======= */
@@ -279,13 +303,25 @@ header li a:hover {
   .mentors-details {
     grid-template-columns: repeat(2, 1fr);
   }
+  .running-section .content .left-content{
+    width: 100%;
+  }
+  .running-section .right-image{
+    display: none;
+  }
+  .running-section .md-image{
+    display: block;
+  }
+  .running-section .primary-btn{
+    min-width: 100%;
+  }
 }
 /* =========   End ======= */
 
 /* ========= small device  Start ======= */
 @media screen and (max-width: 576px) {
   header .logo {
-    font-size: 2.1rem;
+    font-size: 2.3rem;
   }
   header .icon{
     font-size: 25px;
