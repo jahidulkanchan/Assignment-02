@@ -5,6 +5,7 @@
   --primary-color: #ffffff;
   --secondery-color: #b5b5b5;
   --orange-color: #e6533c;
+  --bgBack-color: #000000;
 }
 * {
   margin: 0;
@@ -31,6 +32,12 @@ img {
   max-width: 1150px;
   margin: 0 auto;
 }
+h1{
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
 .primary-btn {
   padding: 15px 25px;
   border: 1px solid #00000000;
@@ -41,9 +48,10 @@ img {
   color: var(--primary-color);
 }
 p {
+  color: #ffffff;
   font-weight: 400;
   line-height: 26px;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 .text-center {
   text-align: center;
@@ -156,8 +164,29 @@ header li a:hover {
 }
 /* =========   End ======= */
 
-/* =========   Start ======= */
-/* =========   End ======= */
+/* ========= Habit section  Start ======= */
+.habit-section{
+  padding: 50px 0px;
+  background-color: var(--bgBack-color);
+  color: var(--primary-color);
+}
+.habit-roadmap{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.habit-roadmap .item{
+  padding: 20px;
+}
+.habit-roadmap .item h3{
+  margin: 10px 0px;
+}
+.habit-roadmap img{
+  width: 180px;
+  border-radius: 150px;
+  border: 4px solid #b0afaf9c;
+}
+/* ========= Habit section  End ======= */
 
 /* =========   Start ======= */
 /* =========   End ======= */
@@ -169,6 +198,24 @@ header li a:hover {
 /* =========   End ======= */
 
 /* =========   Start ======= */
+/* =========   End ======= */
+
+
+/* =========   Start ======= */
+@media screen and (max-width: 992px) {
+  nav .menu ul {
+    display: none;
+  }
+  .navbar-icon {
+    display: block;
+  }
+  .flex-md-column {
+    flex-direction: column;
+  }
+  .habit-roadmap{
+    grid-template-columns: repeat(2,1fr);
+  }
+}
 /* =========   End ======= */
 
 /* ========= small device  Start ======= */
@@ -197,18 +244,9 @@ header li a:hover {
   .primary-btn {
     padding: 15px;
   }
+  .habit-roadmap{
+    grid-template-columns: 1fr;
+  }
 }
 /* =========  small device End ======= */
-/* =========   Start ======= */
-@media screen and (max-width: 992px) {
-  nav .menu ul {
-    display: none;
-  }
-  .navbar-icon {
-    display: block;
-  }
-  .flex-md-column {
-    flex-direction: column;
-  }
-}
-/* =========   End ======= */
+
