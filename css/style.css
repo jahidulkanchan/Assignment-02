@@ -224,22 +224,22 @@ header li a:hover {
   height: 100%;
 }
 .exercise-section .image-card .token-1{
-  background-color: rgba(255, 0, 0, 0.493);
+  background-color: rgba(0, 222, 170, 0.493);
 }
 .exercise-section .image-card .token-2{
-  background-color: rgba(0, 255, 17, 0.493);
+  background-color: rgba(255, 26, 26, 0.452);
 }
 .exercise-section .image-card .token-3{
-  background-color: rgba(0, 70, 222, 0.493);
+  background-color: rgba(0, 0, 0, 0.58);
 }
 .exercise-section .image-card .token-4{
-  background-color: rgba(255, 230, 0, 0.493);
+  background-color: rgba(0, 0, 0, 0.493);
 }
 .exercise-section .image-card .token-5{
-  background-color: rgba(255, 0, 119, 0.493);
+  background-color: rgba(86, 171, 1, 0.493);
 }
 .exercise-section .image-card .token-6{
-  background-color: rgba(0, 189, 222, 0.493);
+  background-color: rgba(8, 86, 254, 0.493);
 }
 .exercise-section .gallery-2{
   display: grid;
