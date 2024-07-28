@@ -40,7 +40,7 @@ h1 {
   margin-bottom: 20px;
 }
 .primary-btn {
-  padding: 15px 25px;
+  padding: 10px 25px;
   border: 1px solid #00000000;
   border-radius: 40px;
   font-size: 18px;
@@ -69,7 +69,7 @@ p {
 .justify-center {
   justify-content: center;
 }
-.justify-evenly{
+.justify-evenly {
   justify-content: space-evenly;
 }
 .justify-between {
@@ -89,7 +89,8 @@ header {
   min-height: 500px;
   padding: 30px 0px 0px 0px;
 }
-header .logo,footer .logo {
+header .logo,
+footer .logo {
   font-weight: 700;
   font-size: 2.5rem;
   color: var(--orange-color);
@@ -123,7 +124,7 @@ header li a:hover {
   font-weight: 200;
   font-family: "Playwrite DK Uloopet", cursive;
 }
-.right-image .circle i{
+.right-image .circle i {
   display: none;
 }
 .banner-part .special {
@@ -197,95 +198,120 @@ header li a:hover {
 /* ========= Habit section  End ======= */
 
 /* ========= Excercise section  Start ======= */
-.exercise-section{
+.exercise-section {
   padding: 50px 0px;
   color: var(--primary-color);
 }
-.exercise-section img{
+.exercise-section img {
   height: 200px;
   object-fit: cover;
 }
-.exercise-section .gallery{
+.exercise-section .gallery {
   margin-top: 70px;
   display: grid;
-  grid-template-columns: .5fr 1fr .5fr;
+  grid-template-columns: 0.5fr 1fr 0.5fr;
 }
-.exercise-section .gallery .image-card,.exercise-section .gallery-2 .image-card{
+.exercise-section .gallery .image-card,
+.exercise-section .gallery-2 .image-card {
   position: relative;
 }
-.exercise-section .image-card .token{
+.exercise-section .image-card .token {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 98%;
 }
-.exercise-section .image-card .token .text{
+.exercise-section .image-card .token .text {
   position: absolute;
   top: 150px;
   left: 30px;
   width: 100%;
   height: 100%;
 }
-.exercise-section .image-card .token-1{
+.exercise-section .image-card .token-1 {
   background-color: rgba(0, 222, 170, 0.493);
 }
-.exercise-section .image-card .token-2{
+.exercise-section .image-card .token-2 {
   background-color: rgba(255, 26, 26, 0.452);
 }
-.exercise-section .image-card .token-3{
+.exercise-section .image-card .token-3 {
   background-color: rgba(0, 0, 0, 0.58);
 }
-.exercise-section .image-card .token-4{
+.exercise-section .image-card .token-4 {
   background-color: rgba(0, 0, 0, 0.493);
 }
-.exercise-section .image-card .token-5{
+.exercise-section .image-card .token-5 {
   background-color: rgba(86, 171, 1, 0.493);
 }
-.exercise-section .image-card .token-6{
+.exercise-section .image-card .token-6 {
   background-color: rgba(8, 86, 254, 0.493);
 }
-.exercise-section .gallery-2{
+.exercise-section .gallery-2 {
   display: grid;
-  grid-template-columns: 1.3fr .7fr .9fr;
+  grid-template-columns: 1.3fr 0.7fr 0.9fr;
 }
 
 /* ========= Excercise section  End ======= */
 
-
 /* ========= Calculator section  Start ======= */
 /* =========  Calculator section End ======= */
-  .calculator-section .container{
-    margin-top: 50px;
-    background-color: #222222;
-    color: #b5b5b5;
-    max-width: 100vw;
-    min-height: 300px;
-  }
-  .calculator-section .top-content{
-    background-color: #000000;
-    margin: 0px 0px;
-    padding: 50px 0px 0px 0px;
-  }
-  .table-section{
-    margin-top: 80px;
-    padding: 50px 10px;
-    min-height: 150px;
-    justify-content: space-around;
-  }
-  .table-section h2{
-    color: var(--primary-color);
-    margin-bottom: 10px;
-  }
-  table,th,td{
-    text-align: left;
-    border: 1px solid #b5b5b5;
-    border-collapse: collapse;
-    padding: 10px 30px;
-  }
-  th{
-    color: #ffffff;
-  }
+.calculator-section .container {
+  margin-top: 50px;
+  background-color: #222222;
+  color: #b5b5b5;
+  max-width: 100vw;
+  min-height: 300px;
+}
+.calculator-section .top-content {
+  background-color: #000000;
+  margin: 0px 0px;
+  padding: 50px 0px 0px 0px;
+}
+.calculator-section .row-1,
+.calculator-section .row-2,
+.calculator-section .row-3 {
+  display: grid;
+  gap: 15px;
+  margin: 20px 0px;
+}
+.calculator-section input,.calculator-section select {
+  min-width: calc(100%-30px);
+  padding: 12px 20px;
+  background-color: #ffffff11;
+  color: #706f6f;
+  border-radius: 8px;
+  border: none;
+  outline: #00000016;
+}
+.calculator-section .row-1,
+.calculator-section .row-2 {
+  grid-template-columns: 1fr 1fr;
+}
+.calculator-section .row-3 {
+  grid-template-columns: 1fr;
+}
+.table-section {
+  margin-top: 80px;
+  padding: 50px 10px;
+  min-height: 150px;
+  justify-content: space-around;
+}
+.table-section h2 {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+table,
+th,
+td {
+  text-align: left;
+  border: 1px solid #b5b5b5;
+  border-collapse: collapse;
+  padding: 10px 30px;
+}
+th {
+  color: #ffffff;
+}
 /* ========= Team section  Start ======= */
 .team-section {
   padding: 50px 0px;
@@ -301,14 +327,14 @@ header li a:hover {
   border-radius: 18px;
   padding: 40px 0px;
 }
-.mentors-details .box{
+.mentors-details .box {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px 0px;
   height: 270px;
 }
-.mentors-details .card{
+.mentors-details .card {
   position: relative;
   width: 90%;
   height: 100%;
@@ -319,31 +345,31 @@ header li a:hover {
   object-fit: cover;
   border-radius: 18px;
 }
-.mentors-details .card-1{
-  background-image: url('../images/trainer1.png');
+.mentors-details .card-1 {
+  background-image: url("../images/trainer1.png");
 }
-.mentors-details .card-2{
-  background-image: url('../images/trainer2.png');
+.mentors-details .card-2 {
+  background-image: url("../images/trainer2.png");
 }
-.mentors-details .card-3{
-  background-image: url('../images/trainer3.png');
+.mentors-details .card-3 {
+  background-image: url("../images/trainer3.png");
 }
-.mentors-details .card-4{
-  background-image: url('../images/trainer4.png');
+.mentors-details .card-4 {
+  background-image: url("../images/trainer4.png");
 }
-.mentors-details .card-5{
-  background-image: url('../images/trainer5.png');
+.mentors-details .card-5 {
+  background-image: url("../images/trainer5.png");
 }
-.mentors-details .card-6{
-  background-image: url('../images/trainer6.png');
+.mentors-details .card-6 {
+  background-image: url("../images/trainer6.png");
 }
-.mentors-details .card .token{
-  position:absolute;
+.mentors-details .card .token {
+  position: absolute;
   text-align: left;
   bottom: 20px;
   left: 30px;
 }
-.mentors-details .card h2{
+.mentors-details .card h2 {
   color: var(--primary-color);
 }
 /* ========= Team section  End ======= */
@@ -354,27 +380,25 @@ header li a:hover {
   min-height: 300px;
   background-color: var(--bgBack-color);
 }
-.running-section .content{
+.running-section .content {
   background-color: #58585879;
   border-radius: 18px;
   padding: 30px 40px;
 }
-.running-section .content .left-content{
+.running-section .content .left-content {
   width: 50%;
 }
-.running-section .right-image img{
+.running-section .right-image img {
   max-width: 360px;
 }
-.running-section .md-image{
+.running-section .md-image {
   display: none;
 }
-.running-section .md-image img{
+.running-section .md-image img {
   border-radius: 18px;
   max-width: 100%;
 }
 /* =========   End ======= */
-
-
 
 /* =========   Start ======= */
 /* =========   End ======= */
@@ -396,41 +420,41 @@ header li a:hover {
   .mentors-details {
     grid-template-columns: repeat(2, 1fr);
   }
-  .running-section .content .left-content{
+  .running-section .content .left-content {
     width: 100%;
   }
-  .running-section .right-image{
+  .running-section .right-image {
     display: none;
   }
-  .running-section .md-image{
+  .running-section .md-image {
     display: block;
   }
-  .running-section .primary-btn{
+  .running-section .primary-btn {
     min-width: 100%;
   }
-  .table-section{
+  .table-section {
     flex-direction: column;
   }
 }
 /* =========   End ======= */
 /* =========   Start ======= */
-footer{
+footer {
   padding: 30px 0px;
   color: white;
 }
-footer h2{
+footer h2 {
   font-size: 32px;
 }
-footer li p{
+footer li p {
   font-size: 23px;
   margin: 15px 0px;
 }
-footer .container .footer-section{
+footer .container .footer-section {
   display: grid;
   gap: 30px;
   grid-template-columns: 3fr 1fr 1fr;
 }
-hr{
+hr {
   border: 1px solid #cfc2c29d;
 }
 
@@ -438,13 +462,14 @@ hr{
 
 /* ========= small device  Start ======= */
 @media screen and (max-width: 576px) {
-  header .logo,footer .logo{
+  header .logo,
+  footer .logo {
     font-size: 2.3rem;
   }
-  header .icon{
+  header .icon {
     font-size: 25px;
   }
-  section h1{
+  section h1 {
     font-size: 35px;
   }
   .container {
@@ -454,7 +479,7 @@ hr{
     font-weight: bold;
     font-size: 45px;
   }
-  .right-image .circle i{
+  .right-image .circle i {
     display: block;
   }
   .banner-part .right-image .after,
@@ -471,19 +496,20 @@ hr{
     left: 50px;
     top: 200px;
   }
-  .primary-btn {
-    padding: 15px;
-  }
+  /* .primary-btn {
+    padding: 10px;
+  } */
   .habit-roadmap {
     grid-template-columns: 1fr;
   }
   .mentors-details {
     grid-template-columns: 1fr;
   }
-  .exercise-section .gallery-2, .exercise-section .gallery{
+  .exercise-section .gallery-2,
+  .exercise-section .gallery {
     grid-template-columns: 1fr;
   }
-  footer .container .footer-section{
+  footer .container .footer-section {
     grid-template-columns: 1fr;
   }
 }
