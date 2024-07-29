@@ -455,11 +455,6 @@ footer .container .footer-section {
   gap: 22px;
   grid-template-columns: 3fr 1fr 1fr;
 }
-footer .container .footer-section {
-  display: grid;
-  gap: 22px;
-  grid-template-columns: 0.7fr;
-}
 hr {
   border: 1px solid #cfc2c29d;
 }
@@ -532,7 +527,7 @@ hr {
     grid-template-columns: 1fr;
   }
   footer .container .footer-section {
-    grid-template-columns: 1fr;
+    grid-template-columns: 0.7fr;
   }
   footer li p {
     font-size: 18px;
