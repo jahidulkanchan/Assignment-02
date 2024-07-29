@@ -452,8 +452,13 @@ footer li p {
 }
 footer .container .footer-section {
   display: grid;
-  gap: 30px;
+  gap: 22px;
   grid-template-columns: 3fr 1fr 1fr;
+}
+footer .container .footer-section {
+  display: grid;
+  gap: 22px;
+  grid-template-columns: 0.7fr;
 }
 hr {
   border: 1px solid #cfc2c29d;
@@ -466,9 +471,18 @@ hr {
   .exercise-section .gallery-2 .image-card {
     margin: 5px 0px;
   }
+  .running-section .content {
+    padding: 30px 15px;
+  }
+  .table-section {
+    padding: 50px 0px;
+  }
   .exercise-section .gallery-2,
-  .exercise-section .gallery{
+  .exercise-section .gallery {
     grid-template-columns: 1fr;
+  }
+  footer h2 {
+    font-size: 25px;
   }
 }
 
@@ -482,7 +496,7 @@ hr {
     font-size: 25px;
   }
   section h1 {
-    font-size: 35px;
+    font-size: 32px;
   }
   .container {
     padding: 0px 15px;
