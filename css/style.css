@@ -226,7 +226,7 @@ header li a:hover {
   position: absolute;
   top: 150px;
   left: 30px;
-  width: 100%;
+  width: 60%;
   height: 100%;
 }
 .exercise-section .image-card .token-1 {
@@ -461,6 +461,17 @@ hr {
 
 /* =========   End ======= */
 
+@media screen and (max-width: 768px) {
+  .exercise-section .gallery .image-card,
+  .exercise-section .gallery-2 .image-card {
+    margin: 5px 0px;
+  }
+  .exercise-section .gallery-2,
+  .exercise-section .gallery{
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ========= small device  Start ======= */
 @media screen and (max-width: 576px) {
   header .logo,
@@ -504,10 +515,6 @@ hr {
     grid-template-columns: 1fr;
   }
   .mentors-details {
-    grid-template-columns: 1fr;
-  }
-  .exercise-section .gallery-2,
-  .exercise-section .gallery {
     grid-template-columns: 1fr;
   }
   footer .container .footer-section {
