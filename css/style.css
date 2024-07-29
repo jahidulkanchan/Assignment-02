@@ -275,7 +275,8 @@ header li a:hover {
   gap: 15px;
   margin: 20px 0px;
 }
-.calculator-section input,.calculator-section select {
+.calculator-section input,
+.calculator-section select {
   min-width: calc(100%-30px);
   padding: 12px 20px;
   background-color: #ffffff11;
@@ -511,6 +512,18 @@ hr {
   }
   footer .container .footer-section {
     grid-template-columns: 1fr;
+  }
+  footer li p {
+    font-size: 18px;
+  }
+  .calculator-section .row-1,
+  .calculator-section .row-2,
+  .calculator-section .row-3 {
+    gap: 8px;
+  }
+  .calculator-section input,
+  .calculator-section select {
+    padding: 12px 3px;
   }
 }
 /* =========  small device End ======= */
