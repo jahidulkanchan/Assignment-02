@@ -520,6 +520,11 @@ hr {
   /* .primary-btn {
     padding: 10px;
   } */
+  table,
+  th,
+  td {
+    padding: 10px 15px;
+  }
   .habit-roadmap {
     grid-template-columns: 1fr;
   }
