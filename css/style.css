@@ -197,6 +197,7 @@ header li a:hover {
 }
 /* ========= Habit section  End ======= */
 
+
 /* ========= Excercise section  Start ======= */
 .exercise-section {
   padding: 50px 0px;
@@ -214,13 +215,21 @@ header li a:hover {
 .exercise-section .gallery .image-card,
 .exercise-section .gallery-2 .image-card {
   position: relative;
+  overflow: hidden;
+  transition: all .3s ease;
+}
+.exercise-section .image-card img{
+  transition: all .3s ease;
+}
+.exercise-section .image-card:hover img{
+  transform: scale(1.1);
 }
 .exercise-section .image-card .token {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 98%;
+  height: 100%;
 }
 .exercise-section .image-card .token .text {
   position: absolute;
@@ -254,8 +263,32 @@ header li a:hover {
 
 /* ========= Excercise section  End ======= */
 
+/* ========= Pricing section  Start ======= */
+.pricing-section {
+  color: var(--primary-color);
+}
+.pricing-cart {
+  gap: 30px;
+}
+.pricing-cart .card{
+  width: 100%;
+  min-height: 200px;
+  border: 2px solid #f05800ec;
+  border-radius: 8px;
+  background-color: #000000fc;
+  transition: all .2s ease-out;
+}
+.pricing-cart .card:hover{
+  filter: drop-shadow(10px 10px 15px #ff4d019b);
+}
+.pricing-cart .card-active{
+  filter: drop-shadow(10px 10px 15px #ff4d019b);
+}
+
+
+/* ========= Pricing section  End ======= */
 /* ========= Calculator section  Start ======= */
-/* =========  Calculator section End ======= */
+
 .calculator-section .container {
   margin-top: 50px;
   background-color: #222222;
@@ -313,6 +346,7 @@ td {
 th {
   color: #ffffff;
 }
+/* =========  Calculator section End ======= */
 /* ========= Team section  Start ======= */
 .team-section {
   padding: 50px 0px;
