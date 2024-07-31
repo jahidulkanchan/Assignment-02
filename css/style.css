@@ -273,16 +273,20 @@ header li a:hover {
 .pricing-cart .card{
   width: 100%;
   min-height: 200px;
-  border: 2px solid #f05800ec;
+  border: 2px solid var(--orange-color);
   border-radius: 8px;
   background-color: #000000fc;
   transition: all .2s ease-out;
 }
 .pricing-cart .card:hover{
-  filter: drop-shadow(10px 10px 15px #ff4d019b);
+  background-color: var(--orange-color);
+  filter: drop-shadow(10px 10px 15px var(--orange-color));
 }
 .pricing-cart .card-active{
-  filter: drop-shadow(10px 10px 15px #ff4d019b);
+  filter: drop-shadow(10px 10px 15px var(--orange-color));
+}
+.pricing-cart .card h2{
+  margin-top: 60px;
 }
 
 
