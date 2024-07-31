@@ -225,8 +225,8 @@ header li a:hover {
 .exercise-section .image-card .token .text {
   position: absolute;
   top: 150px;
-  left: 30px;
-  width: 60%;
+  left: 10px;
+  width: 70%;
   height: 100%;
 }
 .exercise-section .image-card .token-1 {
