@@ -279,21 +279,28 @@ header li a:hover {
 }
 .pricing-cart .card {
   width: 100%;
-  min-height: 200px;
+  min-height: 270px;
   border: 1px solid #ff6708d3;
   border-radius: 8px;
   background-color: #000000fc;
   transition: all 0.2s ease-out;
 }
 .pricing-cart .card:hover {
-  background-color: #ec4f11;
   filter: drop-shadow(10px 10px 15px #ec4f11);
 }
 .pricing-cart .card-active {
   filter: drop-shadow(10px 10px 15px #ec4f11);
 }
-.pricing-cart .card h2 {
-  margin-top: 60px;
+.pricing-cart .card .icon {
+  margin: 20px 0px 10px 0px; 
+  font-size: 30px;
+}
+.pricing-cart .card h1{
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.pricing-cart button{
+  margin: 20px 0px;
 }
 
 /* ========= Pricing section  End ======= */
@@ -529,6 +536,9 @@ hr {
   .exercise-section .gallery-2,
   .exercise-section .gallery {
     grid-template-columns: 1fr;
+  }
+  .calculator-section input[type="number"] {
+    max-width: 150px;
   }
   footer .container .footer-section {
     grid-template-columns: 1fr;
