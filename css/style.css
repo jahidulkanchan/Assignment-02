@@ -78,6 +78,10 @@ p {
 .item-center {
   align-items: center;
 }
+.w-60 {
+  margin: 0 auto;
+  width: 60%;
+}
 
 /* =========Typhography End ======= */
 
@@ -202,6 +206,9 @@ header li a:hover {
   padding: 50px 0px;
   color: var(--primary-color);
 }
+.exercise-section .top-content p{
+  margin: inherit;
+}
 .exercise-section img {
   height: 200px;
   object-fit: cover;
@@ -260,6 +267,7 @@ header li a:hover {
   grid-template-columns: 1.3fr 0.7fr 0.9fr;
 }
 
+
 /* ========= Excercise section  End ======= */
 
 /* ========= Pricing section  Start ======= */
@@ -272,17 +280,17 @@ header li a:hover {
 .pricing-cart .card {
   width: 100%;
   min-height: 200px;
-  border: 2px solid var(--orange-color);
+  border: 1px solid #ff6708d3;
   border-radius: 8px;
   background-color: #000000fc;
   transition: all 0.2s ease-out;
 }
 .pricing-cart .card:hover {
-  background-color: var(--orange-color);
-  filter: drop-shadow(10px 10px 15px var(--orange-color));
+  background-color: #ec4f11;
+  filter: drop-shadow(10px 10px 15px #ec4f11);
 }
 .pricing-cart .card-active {
-  filter: drop-shadow(10px 10px 15px var(--orange-color));
+  filter: drop-shadow(10px 10px 15px #ec4f11);
 }
 .pricing-cart .card h2 {
   margin-top: 60px;
@@ -347,6 +355,9 @@ td {
 }
 th {
   color: #ffffff;
+}
+.form p{
+  margin: inherit;
 }
 /* =========  Calculator section End ======= */
 /* ========= Team section  Start ======= */
@@ -496,8 +507,15 @@ hr {
 }
 
 /* =========   End ======= */
-
+@media screen and (max-width: 992px) {
+  .w-lg-80 {
+    width: 80%;
+  }
+}
 @media screen and (max-width: 768px) {
+  .w-md-full {
+    width: 100%;
+  }
   .exercise-section .gallery .image-card,
   .exercise-section .gallery-2 .image-card {
     margin: 5px 0px;
@@ -510,6 +528,9 @@ hr {
   }
   .exercise-section .gallery-2,
   .exercise-section .gallery {
+    grid-template-columns: 1fr;
+  }
+  footer .container .footer-section {
     grid-template-columns: 1fr;
   }
   footer h2 {
@@ -570,11 +591,9 @@ hr {
   .mentors-details {
     grid-template-columns: 1fr;
   }
-  footer .container .footer-section {
-    grid-template-columns: 0.7fr;
-  }
   footer li p {
     font-size: 18px;
+    margin: 5px 0px
   }
   .calculator-section .row-1,
   .calculator-section .row-2,
