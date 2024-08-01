@@ -197,7 +197,6 @@ header li a:hover {
 }
 /* ========= Habit section  End ======= */
 
-
 /* ========= Excercise section  Start ======= */
 .exercise-section {
   padding: 50px 0px;
@@ -216,12 +215,12 @@ header li a:hover {
 .exercise-section .gallery-2 .image-card {
   position: relative;
   overflow: hidden;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
 }
-.exercise-section .image-card img{
-  transition: all .3s ease;
+.exercise-section .image-card img {
+  transition: all 0.3s ease;
 }
-.exercise-section .image-card:hover img{
+.exercise-section .image-card:hover img {
   transform: scale(1.1);
 }
 .exercise-section .image-card .token {
@@ -270,25 +269,24 @@ header li a:hover {
 .pricing-cart {
   gap: 30px;
 }
-.pricing-cart .card{
+.pricing-cart .card {
   width: 100%;
   min-height: 200px;
   border: 2px solid var(--orange-color);
   border-radius: 8px;
   background-color: #000000fc;
-  transition: all .2s ease-out;
+  transition: all 0.2s ease-out;
 }
-.pricing-cart .card:hover{
+.pricing-cart .card:hover {
   background-color: var(--orange-color);
   filter: drop-shadow(10px 10px 15px var(--orange-color));
 }
-.pricing-cart .card-active{
+.pricing-cart .card-active {
   filter: drop-shadow(10px 10px 15px var(--orange-color));
 }
-.pricing-cart .card h2{
+.pricing-cart .card h2 {
   margin-top: 60px;
 }
-
 
 /* ========= Pricing section  End ======= */
 /* ========= Calculator section  Start ======= */
@@ -558,9 +556,10 @@ hr {
     left: 50px;
     top: 200px;
   }
-  .calculator-section input, .calculator-section select {
+  /* .calculator-section input,
+  .calculator-section select {
     max-width: 150px;
-}
+  } */
   /* .primary-btn {
     padding: 10px;
   } */
