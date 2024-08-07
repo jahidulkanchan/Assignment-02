@@ -546,9 +546,6 @@ hr {
   .exercise-section .gallery {
     grid-template-columns: 1fr;
   }
-  .calculator-section input[type="number"] {
-    max-width: 150px;
-  }
   footer .container .footer-section {
     grid-template-columns: 1fr;
   }
@@ -561,6 +558,9 @@ hr {
 
 /* ========= small device  Start ======= */
 @media screen and (max-width: 576px) {
+  .calculator-section input[type="number"] {
+    max-width: 95%;
+  }
   .primary-btn {
     padding: 10px 20px;
   }
