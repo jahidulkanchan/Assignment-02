@@ -82,10 +82,9 @@ p {
   margin: 0 auto;
   width: 60%;
 }
-
 /* =========Typhography End ======= */
 
-/* ========= Header   Start ======= */
+/* ========= Header-Part Start ======= */
 header {
   background-color: #000000;
   background-image: linear-gradient(#000000b1 10%, #47474781, #00000000);
@@ -120,6 +119,9 @@ header li a:hover {
 .active {
   background-color: var(--orange-color);
 }
+/* =======  Header-part End  ======= */
+
+/* =======  Banner-part Start  ======= */
 .banner-part h1 {
   font-weight: bold;
   font-size: 75px;
@@ -175,9 +177,9 @@ header li a:hover {
   left: -100px;
   bottom: 80px;
 }
-/* =========   End ======= */
+/* =========  Banner-part End ======= */
 
-/* ========= Habit section  Start ======= */
+/* ========= Habit-section  Start ======= */
 .habit-section {
   padding: 50px 0px;
   background-color: var(--bgBack-color);
@@ -198,10 +200,14 @@ header li a:hover {
   width: 180px;
   border-radius: 150px;
   border: 4px solid #b0afaf9c;
+  transition: all .2s ease;
 }
-/* ========= Habit section  End ======= */
+.habit-roadmap img:hover{
+  transform: scale(1.1);
+}
+/* ========= Habit-section  End ======= */
 
-/* ========= Excercise section  Start ======= */
+/* ========= Excercise-section  Start ======= */
 .exercise-section {
   padding: 50px 0px;
   color: var(--primary-color);
@@ -266,11 +272,9 @@ header li a:hover {
   display: grid;
   grid-template-columns: 1.3fr 0.7fr 0.9fr;
 }
+/* ========= Excercise-section  End ======= */
 
-
-/* ========= Excercise section  End ======= */
-
-/* ========= Pricing section  Start ======= */
+/* ========= Pricing-section  Start ======= */
 .pricing-section {
   color: var(--primary-color);
 }
@@ -302,9 +306,9 @@ header li a:hover {
 .pricing-cart button{
   margin: 20px 0px;
 }
+/* ========= Pricing-section  End ======= */
 
-/* ========= Pricing section  End ======= */
-/* ========= Calculator section  Start ======= */
+/* ========= Calculator-section  Start ======= */
 
 .calculator-section .container {
   margin-top: 50px;
@@ -366,8 +370,9 @@ th {
 .form p{
   margin: inherit;
 }
-/* =========  Calculator section End ======= */
-/* ========= Team section  Start ======= */
+/* =========  Calculator-section End ======= */
+
+/* ========= Team-section  Start ======= */
 .team-section {
   padding: 50px 0px;
   background-color: var(--bgBack-color);
@@ -399,6 +404,10 @@ th {
   background-position: top center;
   object-fit: cover;
   border-radius: 18px;
+  transition: all .2s ease;
+}
+.mentors-details .card:hover{
+  transform: scale(1.05);
 }
 .mentors-details .card-1 {
   background-image: url("../images/trainer1.png");
@@ -427,9 +436,9 @@ th {
 .mentors-details .card h2 {
   color: var(--primary-color);
 }
-/* ========= Team section  End ======= */
+/* ========= Team-section  End ======= */
 
-/* =========   Start ======= */
+/* ========= Running-section   Start ======= */
 .running-section {
   padding: 30px 0px;
   min-height: 300px;
@@ -453,12 +462,10 @@ th {
   border-radius: 18px;
   max-width: 100%;
 }
-/* =========   End ======= */
+/* ========= Running-section  End ======= */
 
-/* =========   Start ======= */
-/* =========   End ======= */
 
-/* =========   Start ======= */
+/* ========= Large device  Start ======= */
 @media screen and (max-width: 992px) {
   nav .menu ul {
     display: none;
@@ -491,8 +498,9 @@ th {
     flex-direction: column;
   }
 }
-/* =========   End ======= */
-/* =========   Start ======= */
+/* ========= Large device  End ======= */
+
+/* ========= Footer  Start ======= */
 footer {
   padding: 30px 0px;
   color: white;
@@ -512,8 +520,9 @@ footer .container .footer-section {
 hr {
   border: 1px solid #cfc2c29d;
 }
+/* ========= Footer  End ======= */
 
-/* =========   End ======= */
+/* ========= Medium devices  Start ======= */
 @media screen and (max-width: 992px) {
   .w-lg-80 {
     width: 80%;
@@ -547,6 +556,8 @@ hr {
     font-size: 25px;
   }
 }
+/* ========= Medium devices  End ======= */
+
 
 /* ========= small device  Start ======= */
 @media screen and (max-width: 576px) {
@@ -587,9 +598,6 @@ hr {
     left: 50px;
     top: 200px;
   }
-  /* .primary-btn {
-    padding: 10px;
-  } */
   table,
   th,
   td {
